@@ -25,7 +25,37 @@ body {
   background-size: contain;
   background-image: url(brand.png);
 }
+.product-overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.product-card-container {
+  width: 95%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.23);
+  box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.23);
+  /* border: solid; */
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
+.product-card-image {
+  width: 100%;
+  height: 70%;
+  background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.product-card-image div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 176, 7, 0.6);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.product-card-container:hover .product-card-image div {
+  opacity: 1;
+}
 /*************START HERO ****************/
 .hero-container {
   height: 600px;
@@ -134,7 +164,20 @@ body {
   box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.15);
 }
 /***************END FIRST SECTION*****************/
+/************START PRODUCT PART************/
+.product-container-fluid {
+  background-image: url("particules.jpg");
+  background-size: cover;
+}
+.product-title-container {
+  width: 100%;
+  text-align: center;
+}
+.product-title {
+  font-weight: bold;
+}
 
+/******************END PRODUCT PART************************/
 /***********START MEDIA QUERIES*******************/
 @media screen and (max-width: 992px) {
   .navbar-collapse {
