@@ -178,6 +178,19 @@ body {
 }
 
 /******************END PRODUCT PART************************/
+/******************START FOOTER********/
+footer {
+  height: 410px;
+  background-image: url("particules.jpg");
+  background-size: cover;
+  background-position: right;
+}
+.footer-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  min-height: 100%;
+}
+/******************END FOOTER*******************/
 /***********START MEDIA QUERIES*******************/
 @media screen and (max-width: 992px) {
   .navbar-collapse {
