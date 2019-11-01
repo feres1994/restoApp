@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="categorie.css" />
+
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Zhi+Mang+Xing&display=swap");
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-style">
+      <a class="navbar-brand" href="#"> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/registerPage.html">Register</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!------------------------------------END NAVBAR ------------------------------------------------->
+    <div class="container-fluid categories-container">
+      <div class="row p-4">
+        <!--------START CATEGORIES---------->
+        <div class="col-lg-8 col-md-7 p-4">
+          <div class="categories-title-type ">
+            <h4>nos categories</h4>
+            <p>nos couscous</p>
+          </div>
+          <div class="date-list-categories pt-3">
+            <div class="cat-date">
+              <span>select data :</span>
+              <!--date-->
+              <div class="input-group ">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>date</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <!--time-->
+              <div class="input-group">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>time</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <button class="btn validate-btn">Valider</button>
+            </div>
+            <div class="cat-list pt-4">
+              <div class="cat-item">
+                <div class="item-name-desc">
+                  <p class="item-name">Puff-Puff</p>
+                  <p class="item-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                  </p>
+                </div>
+                <div class="price-add">
+                  <p class="price">14$</p>
+                  <button class="plus-btn">+</button>
+                </div>
+              </div>
+              <div class="cat-item">
+                <div class="item-name-desc">
+                  <p class="item-name">Puff-Puff</p>
+                  <p class="item-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                  </p>
+                </div>
+                <div class="price-add">
+                  <p class="price">14$</p>
+                  <button class="plus-btn">+</button>
+                </div>
+              </div>
+              <div class="cat-item">
+                <div class="item-name-desc">
+                  <p class="item-name">Puff-Puff</p>
+                  <p class="item-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                  </p>
+                </div>
+                <div class="price-add">
+                  <p class="price">14$</p>
+                  <button class="plus-btn">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--------END CATEGORIES---------------->
+        <!--------START PANIER------------------------------>
+        <div class="col-lg-4 col-md-5 p-3">
+          <div class="pt-5">
+            <div class="panier-container ">
+              <div class="delivery-pickedup ">
+                <div class="del-pick">
+                  <p>delivery</p>
+                  <p>30min</p>
+                </div>
+                <div class="del-pick bg-gray">
+                  <p>picked up</p>
+                  <p>15min</p>
+                </div>
+              </div>
+              <div class="data-added-to-cart">
+                <p class="panier-empty">there i no menu added to your card</p>
+              </div>
+              <div class="checkout">
+                <button
+                  class="checkout-btn
+                "
+                >
+                  checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--------END PANIER------------------------------>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
