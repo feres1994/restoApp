@@ -29,7 +29,7 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 5px;
-  border: 2px solid #f8f6f6;
+  border: 2px solid #e2e2e2;
 }
 .item-name-desc {
   position: relative;
@@ -67,7 +67,7 @@
 /********PANIER*******/
 .panier-container {
   width: 100%;
-  border: 2px solid #f8f6f6;
+  border: 2px solid #ecdada;
   height: 450px;
   display: flex;
   flex-direction: column;
