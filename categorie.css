@@ -104,6 +104,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: auto;
+}
+/*******SCROLL CUSTOM******/
+/* Track */
+.data-added-to-cart::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Handle */
+.data-added-to-cart::-webkit-scrollbar-thumb {
+  background: #e8b007;
+}
+
+/* Handle on hover */
+.data-added-to-cart::-webkit-scrollbar-thumb:hover {
+  background: goldenrod;
+}
+/**********************/
+.total-price-container {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
 }
 .checkout {
   height: 70px;

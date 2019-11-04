@@ -1,6 +1,7 @@
 const checkoutBtn = document.querySelector(".checkout-btn");
 const AddBtns = document.querySelectorAll(".plus-btn");
 const Panier = document.querySelector(".data-added-to-cart");
+const total = document.querySelector(".total-price");
 let x = 0;
 for (let i of AddBtns) {
   i.addEventListener("click", () => {
@@ -21,6 +22,6 @@ for (let i of AddBtns) {
     }
     const PriceValue = parseInt(i.previousElementSibling.innerHTML);
     x = x + PriceValue;
-    alert(x);
+    total.innerHTML = x;
   });
 }
