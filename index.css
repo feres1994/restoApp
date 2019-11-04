@@ -26,7 +26,8 @@ body {
   background-image: url(brand.png);
 }
 .product-overlay {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px;
 }
 .product-card-container {
   width: 95%;
@@ -159,9 +160,9 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .option-container:hover {
-  -webkit-box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.15);
-  -moz-box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.15);
-  box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.15);
+  -webkit-box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.3);
+  -moz-box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.3);
+  box-shadow: 2px 15px 47px 0px rgba(5, 5, 5, 0.3);
 }
 /***************END FIRST SECTION*****************/
 /************START PRODUCT PART************/
@@ -192,6 +193,16 @@ footer {
 }
 /******************END FOOTER*******************/
 /***********START MEDIA QUERIES*******************/
+@media screen and (min-width: 1240px) and (max-width: 1500px) {
+  .input-group {
+    width: 100px !important;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .cat-date {
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 992px) {
   .navbar-collapse {
     background-color: #e8b007 !important;
@@ -202,6 +213,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 570px) {
+  .input-group {
+    width: 100px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    background-color: rgba(232, 176, 7, 0.4) !important;
+    padding: 15px !important;
+  }
+}
 /**************START ANIMATION************/
 .text-focus-in {
   -webkit-animation: text-focus-in 0.75s cubic-bezier(0.55, 0.085, 0.68, 0.53)
