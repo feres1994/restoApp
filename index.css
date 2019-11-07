@@ -213,6 +213,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .hero-title p:nth-child(1),
+  .hero-title p:nth-child(2) {
+    font-size: 3rem;
+  }
+}
 @media screen and (max-width: 570px) {
   .input-group {
     width: 100px !important;

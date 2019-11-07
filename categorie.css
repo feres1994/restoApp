@@ -115,6 +115,7 @@
 }
 .blocked {
   display: block;
+  border: 1px solid lightgray;
 }
 .active-cat-class {
   color: #d5b465;
