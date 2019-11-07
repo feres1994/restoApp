@@ -3,6 +3,7 @@ const AddBtns = document.querySelectorAll(".plus-btn");
 const Panier = document.querySelector(".data-added-to-cart");
 const total = document.querySelector(".total-price");
 let categoriesType = document.querySelectorAll(".cat-class p");
+const plusBtn = document.querySelector(".plus-list > p");
 let x = 0;
 for (let i of AddBtns) {
   i.addEventListener("click", () => {
@@ -34,3 +35,15 @@ for (let i of categoriesType) {
     i.className += "active-cat-class";
   });
 }
+
+plusBtn.addEventListener("click", () => {
+  if ($(".plus-list-data").hasClass("hide")) {
+    $(".plus-list-data")
+      .removeClass("hide")
+      .addClass("blocked");
+  } else {
+    $(".plus-list-data")
+      .removeClass("blocked")
+      .addClass("hide");
+  }
+});
