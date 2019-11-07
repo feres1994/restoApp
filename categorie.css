@@ -64,6 +64,29 @@
   background: black;
   color: #b9974d;
 }
+.cat-list-categorie {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 14px;
+  margin-bottom: 7px;
+  box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.cat-class {
+  display: flex;
+  height: 100%;
+}
+.cat-class p {
+  margin-left: 15px;
+  font-size: 19px;
+  font-weight: bold;
+  height: 100%;
+  cursor: pointer;
+}
+.active-cat-class {
+  color: #d5b465;
+  border-bottom: 2px solid #d5b465;
+}
 /********PANIER*******/
 .panier-container {
   width: 100%;
