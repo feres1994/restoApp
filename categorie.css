@@ -67,7 +67,7 @@
 .cat-list-categorie {
   display: flex;
   align-items: center;
-  height: 70px;
+
   padding: 14px;
   margin-bottom: 7px;
   justify-content: space-between;
@@ -76,6 +76,7 @@
 .cat-class {
   display: flex;
   height: 100%;
+  flex-wrap: wrap;
 }
 .cat-class p {
   margin-left: 15px;
@@ -198,4 +199,35 @@
   border: black;
   color: #d5b465;
   font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .cat-list-categorie {
+    flex-direction: column;
+  }
+  .cat-class {
+    justify-content: space-between;
+  }
+  .plus-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .plus-list p {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .plus-list-data {
+    width: 100%;
+  }
+  .cat-item {
+    flex-direction: column;
+  }
+  .input-group {
+    margin-right: 7px !important;
+  }
+  .cat-date span {
+    display: none !important;
+  }
 }
