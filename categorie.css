@@ -2,7 +2,7 @@
   margin-top: 100px;
 }
 .categories-title-type p {
-  color: #9d9595;
+  color: #f7f4f4;
   font-size: 14px;
   font-weight: bold;
   margin-top: -7px;
@@ -29,7 +29,7 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 5px;
-  border: 2px solid #e2e2e2;
+  border-bottom: 2px solid #f7f4f4;
 }
 .item-name-desc {
   position: relative;
@@ -69,9 +69,9 @@
   align-items: center;
 
   padding: 14px;
-  margin-bottom: 7px;
+  margin-bottom: 27px;
   justify-content: space-between;
-  box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #dcd9d9;
 }
 .cat-class {
   display: flex;
@@ -106,7 +106,7 @@
   position: absolute;
   bottom: -189px;
   height: 200px;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #f7f4f4;
   background-color: white;
   box-shadow: 15px 7px 7px rgba(0, 0, 0, 0.1);
 }
@@ -121,9 +121,10 @@
   border-bottom: 2px solid #d5b465;
 }
 /********PANIER*******/
+/********************/
 .panier-container {
   width: 100%;
-  border: 2px solid #ecdada;
+  border: 2px solid #f7f4f4;
   height: 450px;
   display: flex;
   flex-direction: column;
